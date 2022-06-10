@@ -1,25 +1,16 @@
 # Privacy transaction solution for Dante Network
 
-
-## Compile
-```
-truffle compile
-```
-
-## Deploy
-```
-truffle migrate --network platon --reset --skip-dry-run
-```
-
 ## Running proxy
 ```
 cd proxy
+npm i -d
 node index.js
 ```
 
-## Test
+## Test (Ubuntu Only)
 ```
-node alice.js
+npm i -d
+./alice.js
 node bob.js
 ```
 
@@ -37,16 +28,3 @@ node bob.js
 ## Work flow of hackathon demo
 
 ![hackathon-work-flow](./docs/transfer.002.jpeg)
-
-## Package alice.js into executable
-```
-npm i pkg -g
-pkg alice.js
-```
-
-### output
-```
-alice-macos
-alice-linux
-alice-win.exe
-```
