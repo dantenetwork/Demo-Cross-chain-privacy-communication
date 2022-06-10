@@ -11,7 +11,7 @@ const web3 = new Web3('https://devnetopenapi2.platon.network/rpc');
 const chainId = 210309;
 
 const contractAddress = '0xeC1Bca6CB9025Fc45FF66a876fEDbd5d26FA0B90';
-const proxyPrivateKey = '0x767dbe7078ecd5383576ef521b35ad2cdb57317987ded34190357da3259232d2';
+const proxyPrivateKey = '';
 console.log('Blind proxy public key:');
 console.log(web3.eth.accounts.privateKeyToAccount(proxyPrivateKey).address);
 console.log();

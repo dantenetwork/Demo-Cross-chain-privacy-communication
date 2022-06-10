@@ -10,7 +10,7 @@ node index.js
 ## Test (Ubuntu Only)
 ```
 npm i -d
-./alice.js
+./alice
 node bob.js
 ```
 
